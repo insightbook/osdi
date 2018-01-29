@@ -76,6 +76,10 @@ $on-laptop:        800px !default;
   @include relative-font-size(1);
 }
 
+.post-title {
+  @include relative-font-size(1.6);
+}
+
 p {
   line-height: 1.8;
 }
