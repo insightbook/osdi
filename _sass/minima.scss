@@ -72,17 +72,20 @@ $on-laptop:        800px !default;
   }
 }
 
+.post-link {
+  @include relative-font-size(1);
+}
+
 p {
-  line-height: 2;
+  line-height: 1.8;
 }
 
 blockquote {
   text-align: justify;
   color: $grey-color-dark;
-  border-left: 4px solid $grey-color-light;
+  border-left: 0;
   letter-spacing: 0;
-  line-height: 2;
-  padding-left: $spacing-unit;
+  line-height: 1.8;
   margin-bottom: $spacing-unit * 2;
   font-style: normal;
   @include relative-font-size(1);
